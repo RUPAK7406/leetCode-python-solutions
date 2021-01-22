@@ -1,3 +1,5 @@
+class Solution:
+    def findKthPositive(self, arr: List[int], k: int) -> int:
          missingIntegers = []
         
          for i in range(1, 2001):
@@ -6,3 +8,4 @@
         
          return missingIntegers[k-1]
     
+        
